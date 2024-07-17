@@ -12,6 +12,7 @@ pipeline {
                 credentialsId: 'jenkins-PAT'
             }
         }
+	}
 	stages {
 		stage('Build') {
 			steps {
