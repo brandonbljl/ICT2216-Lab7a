@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout SCM') {
             steps {
                 git branch: 'master', 
-                    url: 'https://github.com/brandonbljl/JenkinsDependencyCheckTest.git',
+                    url: 'https://github.com/brandonbljl/ICT2216-Lab7a.git',
                     credentialsId: 'jenkins-PAT'
             }
         }
