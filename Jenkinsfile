@@ -1,4 +1,4 @@
-pipeline {
+ICT2216-Lab7a {
     agent {
         docker {
             image 'composer:latest'
