@@ -2,6 +2,7 @@ pipeline {
     agent {
         docker {
             image 'composer:latest'
+            args '-v /var/run/docker.sock:/var/run/docker.sock' // Mount the Docker socket
         }
     }
     stages {
