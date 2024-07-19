@@ -4,7 +4,7 @@ pipeline {
 			image 'composer:latest'
 			// Run Docker commands as root user
             // args '-u root'
-			args '-u 1000:1000'
+			args '-u 1000:1000 --entrypoint=""'
 		}
 	}
 	stages {
